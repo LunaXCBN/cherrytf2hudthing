@@ -248,8 +248,8 @@ Scheme
 		Border.Dark						"Black"		// the dark/unlit side of a control
 		Border.Selection				"Gray"			// the additional border color for displaying the default/selected button
 
-		Button.TextColor				"TanLight"
-		Button.BgColor					"TanDark"
+		Button.TextColor				"Tanlight"
+		Button.BgColor					"Red"
 		Button.ArmedTextColor			"TanLight"
 		Button.ArmedBgColor				"TFOrange"
 		Button.SelectedTextColor		"TanLight"
@@ -3028,6 +3028,17 @@ Scheme
 				"antialias" "1"
 			}
 		}
+
+		"Nexaregular10"
+		{
+			"1"
+			{
+				"name"		"Nexa Text-Trial Regular"
+				"tall"		"10"
+				"antialias"	"1"
+			}
+		}
+
 		"Nexaregular15"
 		{
 			"1"
@@ -3087,6 +3098,17 @@ Scheme
 				"antialias"	"1"
 			}
 		}
+
+		"Nexalight10"
+		{
+			"1"
+			{
+				"name"		"Nexa Text-Trial Light"
+				"tall"		"10"
+				"antialias"	"1"
+			}
+		}
+		
 		"Nexalight15"
 		{
 			"1"
@@ -3146,6 +3168,17 @@ Scheme
 				"antialias"	"1"
 			}
 		}
+
+		"Nexabold10"
+		{
+			"1"
+			{
+				"name"		"Nexa Text-Trial Bold"
+				"tall"		"10"
+				"antialias"	"1"
+			}
+		}
+
 		"Nexabold15"
 		{
 			"1"
