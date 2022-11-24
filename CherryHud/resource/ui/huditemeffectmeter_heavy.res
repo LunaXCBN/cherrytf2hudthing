@@ -1,17 +1,14 @@
-"Resource/UI/HudItemEffectMeter_SodaPopper.res"
+"Resource/UI/HudItemEffectMeter_Scout.res"
 {
 	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-//		"x_offset"		"40"
-		"xpos"			"r292"	[$WIN32]
-		"ypos"			"r92"	[$WIN32]
-		"xpos_minmode"	"r52"	[$WIN32]
-		"ypos_minmode"	"r83"	[$WIN32]
-		"xpos"			"r194"	[$X360]
-		"ypos"			"r124"	[$X360]
+		"xpos"			"r296"
+		"ypos"			"r92"
+		"xpos_minmode"	"r52"
+		"ypos_minmode"	"r68"
 		"wide"			"100"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -25,7 +22,7 @@
 		"xpos"			"12"
 		"ypos"			"0"
 		"zpos"			"0"
-		"wide"			"47"
+		"wide"			"50"
 		"tall"			"33"
 		"visible"		"1"
 		"visible_minmode"	"0"
@@ -42,7 +39,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"15"
+		"xpos"					"17"
 		"ypos"					"18"
 		"zpos"					"2"
 		"wide"					"41"
@@ -68,7 +65,7 @@
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
-		"xpos"					"20"
+		"xpos"					"22"
 		"ypos"					"12"
 		"ypos_minmode"			"0"
 		"xpos_minmode"			"0"
@@ -83,5 +80,72 @@
 		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
-	}					
+	}
+	
+	"ItemEffectMeterLabel2"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"ItemEffectMeterLabel2"
+		"xpos"					"40"
+		"ypos"					"31"
+		"zpos"					"2"
+		"wide"					"41"
+		"tall"					"15"
+		"autoResize"			"1"
+		"pinCorner"				"2"
+		"visible"				"0"
+		"visible_minmode"		"0"
+		"ypos_minmode"			"0"
+		"xpos_minmode"			"-10"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"labelText"				"#TF_KILLCOMBO"
+		"textAlignment"			"center"
+		"dulltext"				"0"
+		"brighttext"			"0"
+		"font"					"TFFontSmall"
+	}
+	
+	"KillComboClassIcon1"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"KillComboClassIcon1"
+		"xpos"			"40"
+		"ypos"			"23"
+		"wide"			"12"
+		"tall"			"12"
+		"visible"		"0"
+		"visible_minmode"		"0"
+		"enabled"		"1"
+		"image"			"../HUD/leaderboard_class_scout"
+		"scaleImage"	"1"	
+	}
+	"KillComboClassIcon2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"KillComboClassIcon2"
+		"xpos"			"52"
+		"ypos"			"23"
+		"wide"			"12"
+		"tall"			"12"
+		"visible"		"0"
+		"visible_minmode"		"0"
+		"enabled"		"1"
+		"image"			"../HUD/leaderboard_class_scout"
+		"scaleImage"	"1"	
+	}
+	"KillComboClassIcon3"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"KillComboClassIcon3"
+		"xpos"			"64"
+		"ypos"			"23"
+		"wide"			"12"
+		"tall"			"12"
+		"visible"		"0"
+		"visible_minmode"		"0"
+		"enabled"		"1"
+		"image"			"../HUD/leaderboard_class_scout"
+		"scaleImage"	"1"	
+	}
 }

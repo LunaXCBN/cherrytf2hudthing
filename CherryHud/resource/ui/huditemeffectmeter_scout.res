@@ -6,8 +6,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"x_offset"		"40"
-		"xpos"			"r312"	[$WIN32]
-		"ypos"			"r92"	[$WIN32]
+		"xpos"			"r307"	[$WIN32]
+		"ypos"			"r98"	[$WIN32]
 		"xpos_minmode"	"r52"	[$WIN32]
 		"ypos_minmode"	"r68"	[$WIN32]
 		"x_offset_minmode"		"0"	[$WIN32]
@@ -26,7 +26,7 @@
 		"xpos"			"12"
 		"ypos"			"0"
 		"zpos"			"0"
-		"wide"			"57"
+		"wide"			"50"
 		"tall"			"33"
 		"visible"		"1"
 		"visible_minmode"	"0"
@@ -43,7 +43,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"16"
+		"xpos"					"12"
 		"ypos"					"18"
 		"zpos"					"2"
 		"wide"					"50"
@@ -69,7 +69,7 @@
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
-		"xpos"					"25"
+		"xpos"					"22"
 		"ypos"					"12"
 		"ypos_minmode"			"0"
 		"xpos_minmode"			"0"

@@ -78,7 +78,7 @@
 		"enabled"		"1"
 		"xpos"			"r340"	[$WIN32]
 		"xpos_minmode"	"r100"	[$WIN32]
-		"ypos"			"r135"	[$WIN32]
+		"ypos"			"r145"	[$WIN32]
 		"ypos_minmode"	"r34"	[$WIN32]
 		"xpos"			"r174"	[$X360]
 		"ypos"			"r90"	[$X360]
@@ -108,9 +108,9 @@
 	HudBowCharge
 	{
 		"fieldName"		"HudBowCharge"
-		"visible"		"1"
-		"enabled"		"1"
-		"xpos"			"r462"	[$WIN32]
+		"visible"		"0"
+		"enabled"		"0"
+		"xpos"			"9999"	[$WIN32]
 		"xpos_minmode"	"r52"	[$WIN32]
 		"ypos"			"r220"	[$WIN32]
 		"ypos_minmode"	"r40"	[$WIN32]
@@ -1036,7 +1036,7 @@
 		"fieldName"		"HudDemomanPipes"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r376"	[$WIN32]
+		"xpos"			"r302"	[$WIN32]
 		"xpos_minmode"	"r110"	[$WIN32]
 		"ypos"			"r98"	[$WIN32]
 		"ypos_minmode"	"r30"	[$WIN32]

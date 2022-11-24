@@ -1,15 +1,16 @@
-"Resource/UI/HudItemEffectMeter_SodaPopper.res"
+"Resource/UI/HudItemEffectMeter_SpyKnife.res"
 {
 	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-//		"x_offset"		"40"
-		"xpos"			"r292"	[$WIN32]
+		"x_offset"		"40"
+		"xpos"			"r262"	[$WIN32]
 		"ypos"			"r92"	[$WIN32]
 		"xpos_minmode"	"r52"	[$WIN32]
-		"ypos_minmode"	"r83"	[$WIN32]
+		"ypos_minmode"	"r68"	[$WIN32]
+		"x_offset_minmode"		"0"	[$WIN32]
 		"xpos"			"r194"	[$X360]
 		"ypos"			"r124"	[$X360]
 		"wide"			"100"
@@ -25,7 +26,7 @@
 		"xpos"			"12"
 		"ypos"			"0"
 		"zpos"			"0"
-		"wide"			"47"
+		"wide"			"57"
 		"tall"			"33"
 		"visible"		"1"
 		"visible_minmode"	"0"
@@ -42,7 +43,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"15"
+		"xpos"					"20"
 		"ypos"					"18"
 		"zpos"					"2"
 		"wide"					"41"
@@ -68,7 +69,7 @@
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
-		"xpos"					"20"
+		"xpos"					"25"
 		"ypos"					"12"
 		"ypos_minmode"			"0"
 		"xpos_minmode"			"0"

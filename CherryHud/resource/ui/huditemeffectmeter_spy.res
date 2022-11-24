@@ -1,17 +1,16 @@
-"Resource/UI/HudItemEffectMeter_SodaPopper.res"
+"Resource/UI/HudItemEffectMeter_Spy.res"
 {
 	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-//		"x_offset"		"40"
-		"xpos"			"r292"	[$WIN32]
-		"ypos"			"r92"	[$WIN32]
-		"xpos_minmode"	"r52"	[$WIN32]
-		"ypos_minmode"	"r83"	[$WIN32]
+		"xpos"			"r217"	[$WIN32]
+		"ypos"			"r132"	[$WIN32]
+		"xpos_minmode"	"r70"	[$WIN32]
+		"ypos_minmode"	"r74"	[$WIN32]
 		"xpos"			"r194"	[$X360]
-		"ypos"			"r124"	[$X360]
+		"ypos"			"r74"	[$X360]
 		"wide"			"100"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -25,7 +24,7 @@
 		"xpos"			"12"
 		"ypos"			"0"
 		"zpos"			"0"
-		"wide"			"47"
+		"wide"			"57"
 		"tall"			"33"
 		"visible"		"1"
 		"visible_minmode"	"0"
@@ -42,21 +41,17 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"15"
-		"ypos"					"18"
+		"xpos"					"21"
+		"ypos"					"19"
 		"zpos"					"2"
-		"wide"					"41"
+		"wide"					"42"
 		"tall"					"15"
 		"autoResize"			"1"
 		"pinCorner"				"2"
 		"visible"				"1"
-		"visible_minmode"		"1"
-		"ypos_minmode"			"1"
-		"xpos_minmode"			"0"
-		"textAlignment_minmode"			"west"
 		"enabled"				"1"
 		"tabPosition"			"0"
-		"labelText"				"#TF_ENERGYDRINK"
+		"labelText"				"#TF_Ball"
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
@@ -68,20 +63,40 @@
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
-		"xpos"					"20"
-		"ypos"					"12"
+		"xpos"					"25"
+		"ypos"					"23"
 		"ypos_minmode"			"0"
 		"xpos_minmode"			"0"
 		"zpos"					"2"
-		"wide"					"30"
+		"wide"					"40"
 		"wide_minmode"			"50"
-		"tall"					"5"				
+		"tall"					"6"				
 		"autoResize"			"0"
 		"pinCorner"				"0"
-		"visible"				"1"
-		"enabled"				"1"
+		"visible"				"0"
+		"enabled"				"0"
 		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
 	}					
+	
+	"ItemEffectMeterCount"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"ItemEffectMeterCount"
+		"xpos"					"20"
+		"ypos"					"-2"
+		"zpos"					"2"
+		"wide"					"44"
+		"tall"					"30"	
+		"pinCorner"				"2"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"labelText"				"%progresscount%"
+		"textAlignment"			"north"
+		"dulltext"				"0"
+		"brighttext"			"0"
+		"font"					"Nexabold30"
+	}
 }
