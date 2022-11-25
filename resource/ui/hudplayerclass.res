@@ -128,14 +128,10 @@
 		"fieldName"		"classmodelpanel"
 		
 		"xpos"			"0"	[$WIN32]
-		"xpos_minmode"	"0"	[$WIN32]
 		"ypos"			"r214"	[$WIN32]
-		"ypos_minmode"	"r88"	[$WIN32]
 		"zpos"			"2"		
-		"wide"			"100"
-		"wide_minmode"	"52"
+		"wide"			"200"
 		"tall"			"200"
-		"tall_minmode"	"102"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -174,13 +170,11 @@
 			{
 				"fov"			"25"
 				"angles_x"		"-17"
-				"angles_x_minmode"	"-10"
 				"angles_y"		"-135"
 				"angles_z"		"0"
-				"origin_x"		"105"
-				"origin_y"		"-10"
+				"origin_x"		"200"
+				"origin_y"		"5"
 				"origin_z"		"-82"
-				"origin_z_minmode"	"-52"
 			}
 			"Sniper"
 			{
